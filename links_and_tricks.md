@@ -5,9 +5,10 @@ These are links to solve the problems I met before.
 
 ### git / github / bitbucket
 * [Built ssh key of bitbucket](https://confluence.atlassian.com/bitbucket/set-up-an-ssh-key-728138079.html "Title")  
-```
-cat ~/.ssh/id_rsa.pub
-```
+
+	```
+	cat ~/.ssh/id_rsa.pub
+	```
 
 	
 

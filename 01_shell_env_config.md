@@ -1,5 +1,6 @@
 # 01 Shell Environment Configuration
-This section includes of the configuring of shell and several commands of vim/shell.
+
+This section includes shell configuring and several basic commands of vim/shell.
 
 Acknowlege：yukun
 
@@ -15,21 +16,30 @@ This tutor is for mac/linux.
 ### Install
 download the config file from github
  
-```git
+``` git
 git clone https://github.com/mayu95/env_config.git
 ```
 
-install oh-my-zsh (no need on linux)
+install oh-my-zsh (also need on linux)
 > **wget** is used to download files from website given a url. If wget is not existed, "brew install wget".
 
 ```shell
 sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 ```
 
-run the config file
+run the config file (if there is update, ``` git pull ``` first)
 
-```shell
+``` shell
 sh set_env.sh
+```
+
+if on linux, add below codes in 
+```
+~/.bash_profile
+```
+
+```
+zsh -l
 ```
 
 restart shell

@@ -11,14 +11,17 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs\https://raw.githubusercontent.c
 
 Execute PlugInstall in vim (open any file is ok)
 
-```
+```shell
 PlugInstall
 ```
 
 Usually we need to re-install vim with lua support. for mac os:
-```
+
+```shell
 brew reinstall vim --with-lua --with-override-system-vi
 ```
+
+Restart terminal.
 
 
 
@@ -31,6 +34,29 @@ brew reinstall vim --with-lua --with-override-system-vi
 	cp -R source_dir destination_dir
 	```
 	
+* copy file/directory to server
+
+	```
+	scp file_name server_name 	% file
+	scp -r dir_name server_name 	% directory
+	```
+
+* show the top/tail k lines of a file
+
+	```
+	head -n + k + file_name
+	tail -n + k + file_name
+	```
+	default to show 10 lines: ``` head file_name ```
+	
+* show the top/last k files of a list
+
+	```
+	l | head -n + k + file_name		% top k
+	l | tail -n + k + file_name		% last k
+	```
+
+	
 ## Vim commands
 
 ### jump
@@ -38,7 +64,7 @@ brew reinstall vim --with-lua --with-override-system-vi
 
 * jump back:	``` '' ```
 
-* turn to visual model: ``` v ```, then use ``` c ``` or ``` f ``` or other commands.
+* turn to **visual model** : ``` v ```, then use ``` c ``` or ``` f ``` or other commands.
 
 	> ``` S + obj(right) ```
 
@@ -46,18 +72,28 @@ brew reinstall vim --with-lua --with-override-system-vi
 
 
 ### search
-* find the next character in a line:	``` f + char ```, find back:	``` F + char ```. use ``` ; ``` to repeat
+* find the next character in a line:	``` f + char ```, find back:	``` F + char ```
 
-* find 2 characters in a line/article:		``` s + 2 chars ```, find back:	``` S + 2 chars ```. use ``` ; ``` to repeat
+ use ``` ; ``` to repeat
 
-* search any thing: 	``` / + anything ```, use ``` n ``` to next and ``` N ``` to previous. clear highlight: ``` noh ``` or random search
+* find 2 characters in a line/article:		``` s + 2 chars ```, find back:	``` S + 2 chars ```
+
+ use ``` ; ``` to repeat
+
+* search any thing: 	``` / + anything ```, use ``` n ``` to next and ``` N ``` to previous
+
+ clear highlight: ``` noh ``` or random search
 
 * search a variable/word:		``` cursor + * ```
 
 * jump to the head of next word: ``` w ```, end of next word: ``` e ```
-> trick: jump to the first non-space: ``` w ```
+
+ trick: jump to the first non-space: ``` w ```
 
 * word-level jump back: ``` b ```
+
+* **mark** a line at the cursor: ``` m + label ```, find the  marked line: ``` ' + label ```
+ show all marks: ``` marks ```
 
 
 

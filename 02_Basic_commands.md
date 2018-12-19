@@ -5,13 +5,13 @@ Vim comfiguration and some basic commands in shell and vim
 ## Vim configuration
 Install plug manager
 
-``` shell
+```shell
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs\https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
 
 Execute PlugInstall in vim (open any file is ok)
 
-```shell
+```vim
 PlugInstall
 ```
 
@@ -68,7 +68,8 @@ Restart terminal.
 
 	> ``` S + obj(right) ```
 
-* delete the visual part: ``` d ```
+* **delete** the visual part: ``` d ```
+	> **not** clear highlight
 
 
 ### search

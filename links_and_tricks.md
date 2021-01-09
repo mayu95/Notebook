@@ -13,13 +13,5 @@ These are links to solve the problems I met before.
 	
 
 
-## Book
-
-## Debug
-
-
-# tricks
-These are links to solve the problems I met before.
-
 ## Network
 * If the login website of Wi-Fi cannot open, clear the DNS you manually defined.

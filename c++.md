@@ -5,12 +5,13 @@ This is a notebook for learning C++.
 
 ## Common Types
 
-#### Array `A[]` 
+#### Vector `A[]` 
 
-* Define an Array:
+* Define an Array using Vector:
 
 	``` c++
 	#include<vector>
+	
 	vector<int> A = {};
 	```
 
@@ -18,12 +19,50 @@ This is a notebook for learning C++.
 
 	```c++
 	#include<vector>
+	
 	void InsertSort(vector<int>& A){
 	}
 	```
 
-* The length:
+* The length of a vector is `A.size()`, or we can use:
 
 	``` c++
 	int length = sizeof (A) / sizeof (A[0]);
+	```
+* Size_type: do not use `int`s in expressions that use `size()`.
+
+	```c++
+	vector<int> vec(10);
+	
+	for(vector<int>::size_type ix=0; ix != vec.size(); ++ix)
+		vec[ix] = 6;
+	```
+	Here，we can ask the compiler to provide the appropriate type by using `auto` or `decltype`:
+	
+	```c++
+	for (decltype(v.size()) ix=0; ix != v.size(); ++ix)
+		vec[ix] =6;
+	``` 
+	
+	Note that, in C++, we **always use** `!=` in 'for' loop, instead of `<`.
+	
+	And hint that, `++x` is **not equal** to`x++`. 如果使用前缀形式，则会在表达式计算之前完成自增或自减，如果使用后缀形式，则会在表达式计算之后完成自增或自减。
+	
+	```c++
+	int a = 21;
+   int c ;
+ 
+   // a 的值在赋值之前不会自增
+   c = a++;   
+   cout << "Line 1 - Value of a++ is :" << c << endl ;  
+   // a++ = 21
+ 
+   // 表达式计算之后，a 的值增加 1
+   cout << "Line 2 - Value of a is :" << a << endl ;
+   // a = 22
+ 
+   // a 的值在赋值之前自增
+   c = ++a;  
+   cout << "Line 3 - Value of ++a is  :" << c << endl ;
+   // a = 23
 	```

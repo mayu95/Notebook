@@ -29,7 +29,7 @@ This is a notebook for learning C++.
 	``` c++
 	int length = sizeof (A) / sizeof (A[0]);
 	```
-* Size_type: do not use `int`s in expressions that use `size()`.
+* Size_type: **do not** use `int`s in expressions that use `size()`.
 
 	```c++
 	vector<int> vec(10);
@@ -55,7 +55,7 @@ This is a notebook for learning C++.
    // a 的值在赋值之前不会自增
    c = a++;   
    cout << "Line 1 - Value of a++ is :" << c << endl ;  
-   // a++ = 21
+   // c = a++ = 21
  
    // 表达式计算之后，a 的值增加 1
    cout << "Line 2 - Value of a is :" << a << endl ;

@@ -3,7 +3,7 @@
 This is a notebook for learning C++.
 
 
-## Common Types
+## Basic Conceptions
 
 #### Vector `A[]` 
 

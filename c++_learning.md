@@ -16,7 +16,7 @@ C++ learning route.
 * 设计模式：《大话设计模式》（单例、工厂、代理、策略模式、模块方法）
 
 #### 应用与实践
-* Linux 使用
+* Linux 使用：《鸟哥的Linux私房菜》
 * 编译和调试：
 	* GUN官方GCC、GDB文档
 	[GDB User Manual](https://sourceware.org/gdb/current/onlinedocs/gdb/) 
@@ -24,8 +24,8 @@ C++ learning route.
 	[English](https://sourceware.org/gdb/current/onlinedocs/gdb.pdf) 
 	[Chinese](https://github.com/shihyu/MyTool/blob/master/GDB/Debugging.with.gdb%20%E4%B8%AD%E6%96%87.pdf)
 	* 《跟我一起写makefile》陈皓
-* Linux 环境编程
-	* 多线程、网络：《unix 环境高级编程》、《Linux高性能服务器编程》、《posix多线程程序设计》 
+* Linux 环境编程  
+	多线程、网络：《unix 环境高级编程》、《Linux高性能服务器编程》、《posix多线程程序设计》 
 
 #### 其他
 * Google 编程规范 

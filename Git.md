@@ -58,3 +58,7 @@ git commit -a 	// commit all
 * 执行命令 `git checkout master` 切换到 master 分支。
 * 执行命令 `git merge upstream/master` 合并远程的master分支。
 * 执行命令 `git push` 把本地仓库向github仓库。
+
+> check differences: `git diff <source_branch> <target_branch>`
+
+> [替换本地改动](http://rogerdudler.github.io/git-guide/index.zh.html)

@@ -21,10 +21,10 @@
     > [常用 Git 命令清单](http://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html)
 
 3. 了解/熟悉mvn的基本使用
-    - [ ] 使用mvn编译一个java工程
-    - [ ] 理解mvn坐标的基本概念
+    - [x] 使用mvn编译一个java工程
+    - [x] 理解mvn坐标的基本概念
     - [x] 了解中央仓库和私服的基本概念
 
     > [mvn 基础](https://www.cnblogs.com/bndong/p/9762067.html)
 
-4. 了解/熟悉postman的基本使
+4. 了解/熟悉postman的基本使用

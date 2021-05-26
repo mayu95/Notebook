@@ -1,6 +1,6 @@
- # Schedule
+# Schedule
 
- ## Week 1
+## Week 1 (5.17-5.21)
 
   1. 笔记安装基本开发环境
     - [x] git客户端安装
@@ -11,10 +11,10 @@
     - [x] postman 安装
 
   2. 了解/熟悉git基本使用
-    1）从gitlab上clone项目
-    2）熟悉add、commit、push、pull 等基本操作
-    3）熟悉通过githab的界面查看提交（commit）、标签(tag)和分支(branch） 
-    4) 熟悉checkout、branch等操作
+    - [x] 从gitlab上clone项目
+    - [x] 熟悉add、commit、push、pull 等基本操作
+    - [x] 熟悉通过githab的界面查看提交（commit）、标签(tag)和分支(branch） 
+    - [x] 熟悉checkout、branch等操作
     
     > [Git基础命令](https://www.jianshu.com/p/58396dee2dc1)
 
@@ -30,10 +30,10 @@
   4. 了解/熟悉postman的基本使用
 
 
- ## Week 2
+## Week 2 (5.24-5.28)
 
    1. linux 初步: 基础环境
      - [x] securty CRT安装
-     - [ ] 第7、第8、9、10、11章
-     - [ ] 第13、14、15章
+     - [x] 第7、第8、9、10、11章
+     - [x] 第13、14、15章
 

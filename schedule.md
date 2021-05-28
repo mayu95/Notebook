@@ -32,8 +32,16 @@
 
 ## Week 2 (5.24-5.28)
 
-   1. linux 初步: 基础环境
+   1. linux 初步: 基础环境 (5.24-5.25)
      - [x] securty CRT安装
      - [x] 第7、第8、9、10、11章
      - [x] 第13、14、15章
+   
+   2. internship project
+     - [ ] install datebase (5.26-
+     - [ ] 建库
+     - [ ] install software
+     - [ ] setup system
+     - [ ] test
+     - [ ] report
 
